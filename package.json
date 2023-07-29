@@ -2,6 +2,7 @@
   "name": "@ibedwi/react-animation-wrapper",
   "version": "0.1.0",
   "description": "",
+  "private": false,
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.ts",
