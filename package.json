@@ -1,16 +1,20 @@
 {
-  "name": "react-animation-wrapper",
-  "version": "1.0.0",
+  "name": "@ibedwi/react-animation-wrapper",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.ts",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "lint": "tsc"
+    "lint": "tsc",
+    "release": "npm run lint && npm run build && changeset publish"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Ibe Dwi",
+  "license": "MIT",
   "devDependencies": {
+    "@changesets/cli": "^2.26.2",
     "tsup": "^7.1.0",
     "typescript": "^5.1.6"
   }
