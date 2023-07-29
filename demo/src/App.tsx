@@ -1,6 +1,6 @@
 import "./App.css";
 import "animate.css";
-import { AnimationWrapper } from "../../src/AnimationWrapper";
+import { AnimationWrapper } from "../../dist";
 
 function App() {
   return (
