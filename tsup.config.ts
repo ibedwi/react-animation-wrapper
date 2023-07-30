@@ -4,6 +4,7 @@ export default defineConfig({
   minify: true,
   target: "es2018",
   sourcemap: true,
+  external: ["react", "react-dom"],
   // Generate declaration files (.d.ts)
   dts: true,
   format: ["esm", "cjs"],

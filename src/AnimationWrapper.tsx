@@ -1,5 +1,6 @@
 "use client";
 
+import * as React from "react";
 import { CSSProperties, PropsWithChildren, useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import cn from "classnames";
