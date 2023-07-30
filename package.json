@@ -1,13 +1,13 @@
 {
   "name": "@ibedwi/react-animation-wrapper",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "build": "tsup src/index.tsx",
     "lint": "tsc",
     "release": "npm run lint && npm run build && changeset publish"
   },
